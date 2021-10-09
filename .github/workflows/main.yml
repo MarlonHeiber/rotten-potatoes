@@ -29,6 +29,7 @@ jobs:
             marlonheiber/rotten-potatoes:latest
             
   build-CD:
+    needs: [build-CI] 
     runs-on: ubuntu:latest
     
     steps:
