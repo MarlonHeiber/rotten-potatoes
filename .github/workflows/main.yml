@@ -30,7 +30,7 @@ jobs:
             
   build-CD:
     needs: [build-CI] 
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     
     steps:
       - uses: actions/checkout@v2
