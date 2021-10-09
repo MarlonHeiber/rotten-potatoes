@@ -27,6 +27,7 @@ jobs:
           push: true
           tags:
             marlonheiber/rotten-potatoes:latest
+            marlonheiber/rotten-potatoes:${{ github.run_number }}
             
   build-CD:
     needs: [build-CI] 
