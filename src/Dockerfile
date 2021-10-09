@@ -1,7 +1,6 @@
 FROM python:3.8
-RUN mkdir /app
 WORKDIR /app
-COPY ./src/requirements.txt .
+COPY requirements.txt .
 RUN python -m pip install -r requirements.txt
 COPY . .
 EXPOSE 5000
