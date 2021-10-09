@@ -27,4 +27,3 @@ jobs:
           push: true
           tags:
             marlonheiber/rotten-potatoes:latest
-            marlonheiber/rotten-potatoes:v8
