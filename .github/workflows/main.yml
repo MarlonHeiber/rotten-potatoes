@@ -27,6 +27,4 @@ jobs:
           push: true
           tags:
             marlonheiber/rotten-potatoes:latest
-            marlonheiber/rotten-potatoes:${{ github.run_number }}
-          
-          
+            marlonheiber/rotten-potatoes:$GITHUB_RUN_NUMBER
