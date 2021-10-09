@@ -1,9 +1,7 @@
 FROM python:3.8
 RUN mkdir /app
 WORKDIR /app
-RUN PWD
-RUN ls -l
-COPY ./requirements.txt /requirements.txt
+COPY ./src/requirements.txt .
 RUN python -m pip install -r requirements.txt
 COPY . .
 EXPOSE 5000
